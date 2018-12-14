@@ -6,7 +6,8 @@ http://surpriselib.com/
 https://anaconda.org/conda-forge/scikit-surprise
 https://anaconda.org/anaconda/cython
 https://github.com/NicolasHug/Surprise/issues/22
-@author: jaipe
+@author: Ryan Jaipersaud
+@co-author: Nicholas Gao
 """
 
 from surprise import SVD
