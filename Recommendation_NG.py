@@ -87,7 +87,7 @@ def get_user_recs(uid_for_new_user, dev=True):
 if __name__ == "__main__":
     # Get Data
     # file_path = os.path.expanduser('C:/cygwin64/home/jaipe/Machine Learning/ml-100k/u.data')
-    file_path = os.path.expanduser('/Users/NicholasGao/Downloads/ml-100k/u.data')
+    file_path = os.path.expanduser(get_dataset_dir() + '/ml-100k/ml-100k/u.data')
     reader = Reader(line_format='user item rating timestamp', sep='\t')
     data = Dataset.load_from_file(file_path, reader=reader)
 
