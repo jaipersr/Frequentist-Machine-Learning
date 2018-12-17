@@ -3,6 +3,7 @@
 @co-author: Ryan Jaipersaud
 Frequentist Machine Learning
 Professor Keene
+Fall 2018
 Final MiniProject
 """
 
